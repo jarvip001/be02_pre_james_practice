@@ -13,7 +13,7 @@ public class Ex02 {
 
         for (int i = 1; i <= 6; i++) {
 
-            Integer num = (int)(Math.random()*10);
+            Integer num = (int)(Math.random()*3);
             System.out.println(num);
 
         }
