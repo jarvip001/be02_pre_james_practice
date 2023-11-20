@@ -15,13 +15,13 @@ public class Ex03 {
             System.out.println(k);
         }
 
-        for (int i=5; i>=1; i--) {
+        for (int i=0; i<=4; i++) {
             String k = "";
-            for (int j=1; j<=i; j++) {
+            for (int j=4; j>=i; j--) {
                 if (j!=i)
                     k = k + " ";
                 else
-                    for (int m=i%5; m<=i; m++) {
+                    for (int m=0; m<i*2+1; m++) {
                         k = k + "*";
                     }
             }
